@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("bg.png");
+    background-position: bottom;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+}
+
+.intro {
+    justify-content: center;
+    align-items: center;
+    color: 	#1F5A92;
+    text-align: center;
+}
+
+
+img {
+    border-radius: 50%;
+    width: 15%;
+    height: auto;
+}
+
+.name {
+    font-family: cursive;
+    font-size: 80px;
+}
+
+.one-liner {
+    font-family: cursive;
+    font-size: large;
+}
+
+.contact {
+    width: 100%;
+    height: 13vh;
+    background-color: 	#0B1E35;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+}
+
+.icon {
+    padding: 10px;
+    height: 20px;
+    font-size: 30px;
+}
+
+.navbar {
+    display: flex;
+    height: 6vh;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #0b1e35;
+}
+
+.head {
+    display: flex;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px ;
+    height: 100%;
+    font-size: 17px;
+    align-items: center;
+}
+
+a {
+  text-decoration: none;  
+  color: #1F5A92 ;
+  align-items: center;
+          
+}
+
+.head:hover {
+    background-color: #040A17 ;
+    border: white;
+}
+
+.greet {
+    margin-right: auto;
+    padding-left: 10px;
+    color: #1F5A92;
+    font-size: 25px;
+}
+
+.para {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+@media screen and (max-width: 700px) {
+  .greet {
+    font-size: 95%;
+  }
+
+  .head {
+    font-size: 95%;
+    padding-right: 7px;
+    padding-left: 7px ;
+  }
+
+  .para {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+}
+
+@media  screen and (max-width: 500px){
+    .greet {
+        font-size: 80%;
+    }
+
+    .head {
+        font-size: 85%;
+        padding-right: 5px;
+        padding-left: 5px ;
+    }
+}
+
+@media screen and (max-width: 444px){
+     .greet {
+        font-size: 70%;
+    }
+
+    .head {
+        font-size: 75%;
+        padding-right: 4px;
+    padding-left: 4px ;
+    }
+
+    .name {
+    font-size: 60px;
+}
+}
