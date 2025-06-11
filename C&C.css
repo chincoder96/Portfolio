@@ -146,26 +146,24 @@ a {
     .certificates {
         font-size: 17px;
     }
+    
 }
 
 @media screen and (max-width: 470px) {
     .certificates {
         font-size: 10px;
-        width: 200px;
-        height: 200px;
-    }
-
-    .background {
-        height: 85vh;
-    }
-    
-}
-
-@media screen and (max-width: 378px) {
-    .certificates {
-        font-size: 8px;
         width: 150px;
         height: 150px;
     }
+
+    .courses {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     
+    .background {
+        height: 85vh;
+    }
 }
+
